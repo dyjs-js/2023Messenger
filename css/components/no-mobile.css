@@ -1,0 +1,17 @@
+#no-monile {
+  position: absolute; /*모든 것의 위에 올라감*/
+  z-index: 99;
+  height: 100vh;
+  background-color: var(--yellow);
+  width: 100vw;
+  display: flex;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  #no-monile {
+    display: none;
+  }
+}
